@@ -1,0 +1,61 @@
+* Please fill out this section:
+** Name: Nursima Donuk
+** GitHub username: nursimadonuk
+
+* Lab 02
+
+The bulk of the assignment can be found here:
+[[https://maryash.github.io/135/labs/lab_02.html]].
+
+** Important notes
+With the excepton of *Task A* no part of thie lab should ask for user
+input when run. *Task A* should be written and should run as per the
+description but the other tasks should follow the instructions 
+
+
+** Task A
+This taks should be completed as written
+
+** Tasks B - D
+
+All of these should be written in a file named ~main.cpp~. 
+
+There should be no user input. In addition to a function for each task
+there should be one single ~main~ function. This function should run
+all of the other functions and provide sufficient information to show
+that they are working.
+
+For example, when run, the output should start with something like
+this:
+#+BEGIN_EXAMPLE
+Task B from -5 to 10
+-5 -4 -3 -1 -1 0 1 2 3 4 5 6 7 8 9
+#+END_EXAMPLE
+
+*** Task B
+Write a function ~void print_interval(int start, int stop)~ that will
+print output as specified in the assignment for the regular class
+*** Task C
+Follow these instructions *instead* of those in the main lab
+assignment.
+1. In the ~main~ function create the array ~myData~ with 10 integers
+   and fill all the cells with the value ~1~ (using a for loop).
+2. Print all the elements (from the ~main~ function).
+3. Write a function ~change(int myData[], int index, int value)~ which
+   will take as parameters the array, an index and a new value. If you
+   start with the array containing ~[1,1,1,1,1,1,1,1,1,1]~~, after
+   calling ~change(myData,3,20)~ the array will contain ~[1,1,1,20,1,1,1,1,1,1,1,]~.
+4. In main, call this function a few times and each time print out the
+   array to show that it works.
+*** Task D
+Write a function ~void fib()~. This function should make an array of
+60 elements (see the main lab instructions) and fill the array with
+the first 60 fibonacci numbers (again, as described in the main lab).
+
+The function should then use a loop to print out all the values on one
+line separated by spaces:
+#+BEGIN_EXAMPLE
+0, 1, 1, 2, 3, 5, 8, 13 etc.
+#+END_EXAMPLE
+
+
